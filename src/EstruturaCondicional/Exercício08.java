@@ -23,7 +23,7 @@ public class Exercício08 {
 			imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08; 
 			System.out.printf("R$ %.2f", imposto);
 		}else {
-			imposto = (salario - 4500.0) * 0.28 + 1500 * 0.18 + 1000.0 * 0.08;
+			imposto = (salario - 4500.1) * 0.28 + 1500 * 0.18 + 1000.0 * 0.08;
 			System.out.printf("R$ %.2f", imposto);
 		}
 		sc.close();
